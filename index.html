@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our superheroes</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+      <header>
+
+      </header>
+
+      <section>
+
+      </section>
+
+      <script>
+        const header = document.querySelector('header');
+        const section = document.querySelector('section');
+        const requestURL = "https://raw.githubusercontent.com/AnthonyPreite/TGlzdCBvZiB3aXRuZXNzZXM-.github.io/master/table.json";
+        var request = new XMLHttpRequest();
+
+        request.open('GET', requestURL);
+
+        request.responseType = 'json';
+        request.send();
+
+        request.onload = function() {
+        const witness = request.response;
+        populateHeader(witness);
+        showMembers(witness);
+        }
+
+        function populateHeader(jsonObj) {
+          var myH1 = document.createElement('h1');
+          myH1.textContent = jsonObj['project'];
+          header.appendChild(myH1);
+
+          var myPara = document.createElement('p');
+          myPara.textContent = 'location: ' + jsonObj['location'  ] + jsonObj['year'];
+          header.appendChild(myPara);
+        }
+
+        function showMembers(jsonObj) {
+          var person = jsonObj['members'];
+
+          for (var i = 0; i < person.length; i++) {
+            var myArticle = document.createElement('article');
+            var myH2 = document.createElement('h2');
+            var myPara1 = document.createElement('p');
+            var myPara2 = document.createElement('p');
+            var myList = document.createElement('ul');
+          
+            myH2.textContent = person[i].name;
+            myPara1.textContent = 'othername: ' + person[i].othername;
+            myPara2.textContent = 'Age: ' + person[i].age;
+            
+          
+            /*var superPowers = person[i].powers;
+            for (var j = 0; j < superPowers.length; j++) {
+              var listItem = document.createElement('li');
+              listItem.textContent = superPowers[j];
+              myList.appendChild(listItem);
+            }*/
+          
+            myArticle.appendChild(myH2);
+            myArticle.appendChild(myPara1);
+            myArticle.appendChild(myPara2);
+            myArticle.appendChild(myList);
+          
+            section.appendChild(myArticle);
+          }
+        }
+      </script>
+  </body>
+</html>
