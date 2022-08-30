@@ -1,7 +1,7 @@
 {
-    "squadName": "Cure research's program",
-    "homeTown": "Coventry",
-    "formed": 2020,
+    "project": "Cure research's program",
+    "localisation": "Coventry",
+    "year": 2020,
     "center": "University Hospital Coventry & Warwickshire",
     "active": true,
     "members": [
