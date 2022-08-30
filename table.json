@@ -1,0 +1,19 @@
+{
+    "squadName": "Cure research's program",
+    "homeTown": "Coventry",
+    "formed": 2020,
+    "center": "University Hospital Coventry & Warwickshire",
+    "active": true,
+    "members": [
+        {
+          "name": "Ethan Ross",
+          "age": 34,
+          "affiliation": "UHCW"
+        },
+        {
+          "name": "Jane Doe",
+          "age": 28,
+          "affiliation": "none"
+        }
+    ]
+  }
