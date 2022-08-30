@@ -1,17 +1,19 @@
 {
     "project": "Cure research's program",
-    "localisation": "Coventry",
+    "location": "Coventry",
     "year": 2020,
     "center": "University Hospital Coventry & Warwickshire",
     "active": true,
     "members": [
         {
           "name": "Ethan Ross",
+          "othername": "Dr Ross",
           "age": 34,
           "affiliation": "UHCW"
         },
         {
           "name": "Jane Doe",
+          "othername": "Patient 212",
           "age": 28,
           "affiliation": "none"
         }
