@@ -16,6 +16,12 @@
           "othername": "Patient 212",
           "age": 28,
           "affiliation": "none"
+        },
+        {
+          "name": "Anton Preisan",
+          "othername": "Patient 001",
+          "age": 45,
+          "affiliation": "Astorian's President"
         }
     ]
   }
