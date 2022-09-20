@@ -22,6 +22,12 @@
           "othername": "Patient 001",
           "age": 45,
           "affiliation": "Astorian's President"
+        },
+        {
+          "name": "Thomas Preite",
+          "othername": "Patient 015",
+          "age": 23,
+          "affiliation": "none"
         }
     ]
   }
