@@ -9,31 +9,38 @@
           "name": "Ethan Ross",
           "othername": "Dr Ross",
           "age": 34,
-          "affiliation": "UHCW"
+          "Employement": "UHCW"
         },
         {
           "name": "Jane Doe",
           "othername": "Patient 212",
           "age": 28,
-          "affiliation": "none"
+          "Employement": "Unknown",
+          "Cause Of death" : "Overdose"
         },
         {
-          "name": "Anton Preisan",
+          "name": "Jason Artbhan",
           "othername": "Patient 001",
           "age": 45,
-          "affiliation": "Astorian's President"
+          "Employement": "Workers",
+          "Cause Of death" : "Deshydratation"
+
         },
         {
           "name": "Salma Frey",
           "othername": "Patient 015",
           "age": 23,
-          "affiliation": "none"
+          "Employement": "Seller",
+          "Cause Of death" : "Confidential"
+
         },
         {
           "name": "Algon Kayen",
           "othername": "Patient 016",
           "age": 28,
-          "affiliation": "none"
+          "Employement": "Unknown",
+          "Cause Of death" : "Confidential"
+
         }
     ]
   }
