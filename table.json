@@ -9,21 +9,23 @@
           "name": "Ethan Ross",
           "othername": "Dr Ross",
           "age": 34,
-          "Employement": "UHCW"
+          "Employement": "UHCW",
+          "Cause of death" : "/"
+
         },
         {
           "name": "Jane Doe",
           "othername": "Patient 212",
           "age": 28,
           "Employement": "Unknown",
-          "Cause Of death" : "Overdose"
+          "Cause of death" : "Overdose"
         },
         {
           "name": "Jason Artbhan",
           "othername": "Patient 001",
           "age": 45,
           "Employement": "Workers",
-          "Cause Of death" : "Deshydratation"
+          "Cause of death" : "Deshydratation"
 
         },
         {
@@ -31,7 +33,7 @@
           "othername": "Patient 015",
           "age": 23,
           "Employement": "Seller",
-          "Cause Of death" : "Confidential"
+          "Cause of death" : "Confidential"
 
         },
         {
@@ -39,7 +41,7 @@
           "othername": "Patient 016",
           "age": 28,
           "Employement": "Unknown",
-          "Cause Of death" : "Confidential"
+          "Cause of death" : "Confidential"
 
         }
     ]
