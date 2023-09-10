@@ -10,7 +10,7 @@
           "othername": "Dr Ross",
           "age": 34,
           "Employement": "UHCW",
-          "Cause of death" : "/"
+          "Cause_of_death" : "/"
 
         },
         {
@@ -18,14 +18,14 @@
           "othername": "Patient 212",
           "age": 28,
           "Employement": "Unknown",
-          "Cause of death" : "Overdose"
+          "Cause_of_death" : "Overdose"
         },
         {
           "name": "Jason Artbhan",
           "othername": "Patient 001",
           "age": 45,
           "Employement": "Workers",
-          "Cause of death" : "Deshydratation"
+          "Cause_of_death" : "Deshydratation"
 
         },
         {
@@ -33,7 +33,7 @@
           "othername": "Patient 015",
           "age": 23,
           "Employement": "Seller",
-          "Cause of death" : "Confidential"
+          "Cause_of_death" : "Confidential"
 
         },
         {
@@ -41,7 +41,7 @@
           "othername": "Patient 016",
           "age": 28,
           "Employement": "Unknown",
-          "Cause of death" : "Confidential"
+          "Cause_of_death" : "Confidential"
 
         }
     ]
