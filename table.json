@@ -24,9 +24,15 @@
           "affiliation": "Astorian's President"
         },
         {
-          "name": "Thomas Preite",
+          "name": "Salma Frey",
           "othername": "Patient 015",
           "age": 23,
+          "affiliation": "none"
+        },
+        {
+          "name": "Algon Kayen",
+          "othername": "Patient 016",
+          "age": 28,
           "affiliation": "none"
         }
     ]
