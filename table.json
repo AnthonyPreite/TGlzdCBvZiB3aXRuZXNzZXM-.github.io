@@ -44,5 +44,13 @@
           "Cause_of_death" : "Confidential"
 
         }
+        {
+          "name": "Aaron Hotchner",
+          "othername": "Patient X",
+          "age": 58,
+          "Employement": "Special FBI Agent",
+          "Cause_of_death" : "Confidential"
+
+        }
     ]
   }
